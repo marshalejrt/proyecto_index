@@ -111,7 +111,7 @@
                         <a class="page-scroll" href="#portfolio">Proyectos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about-us">Nosotros</a>
+                        <a class="page-scroll" href="#censo_cursos">Cursos</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#service">Servicios</a>
@@ -415,13 +415,13 @@
     
     
     <!-- Start About Us Section -->
-    <section id="about-us" class="about-us-section-1">
+    <section id="censo_cursos" class="about-us-section-1">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title text-center">
-                            <h3>About Us</h3>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                            <h3>Cursos</h3>
+                            <p>Registro su solicitud de Cursos que tenemos para ofrecer:</p>
                         </div>
                 </div>
             </div>
@@ -434,8 +434,8 @@
                 foreach ($cursos as $k=>$v){
                 ?>
                 <div class="col-md-4">
-                    <div class="welcome-section text-center">
-                        <input type="radio" name="curso" id="<?php echo $v["id"] ?>">
+                    <div class="welcome-section text-center contenedor">
+                        <input type="radio" class="curso <?php echo $v["id"] ?>" name="curso" id="<?php echo $v["id"] ?>" value="<?php echo $v["id"] ?>">
                         <label for="<?php echo $v["id"] ?>">
                             <img src="images/about-01.jpg" class="img-responsive" alt="..">
                             <h4><?php echo $v["nombre"] ?></h4>
@@ -447,6 +447,41 @@
                 <?php
                 }
                 ?>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Cédula *" id="cedula" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nombre *" id="nombre" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Apellido *" id="apellido" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Telefono *" id="telefono" required data-validation-required-message="Please enter your phone number.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Comentario" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-lg-12 text-center">
+                        <div id="success"></div>
+                        <button class="btn btn-success">Registrar Solicitud</button>
+                    </div>
+                </div>
                 <!--<div class="col-md-4">
                     <div class="welcome-section text-center">
                         <img src="images/about-01.jpg" class="img-responsive" alt="..">
@@ -1360,6 +1395,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/script.js"></script>
+    <script src="js/eventos.js"></script>
 
 </body>
 
