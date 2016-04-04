@@ -1,3 +1,6 @@
+<?php
+include_once 'php/parametros_bd.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -116,24 +119,24 @@
                     <li>
                         <a class="page-scroll" href="#service">Servicios</a>
                     </li>
-                    <li>
+                    <!--li>
                         <a class="page-scroll" href="#team">Equipo</a>
-                    </li>
-                    <li>
+                    </li-->
+                    <!--li>
                         <a class="page-scroll" href="#pricing">Precios</a>
-                    </li>
-                    <li>
+                    </li-->
+                    <!--li>
                         <a class="page-scroll" href="#latest-news">Últimas Noticias</a>
-                    </li>
-                    <li>
+                    </li-->
+                    <!--li>
                         <a class="page-scroll" href="#testimonial">Testimonios</a>
-                    </li>
-                    <li>
+                    </li-->
+                    <!--li>
                         <a class="page-scroll" href="#partner">Socios</a>
-                    </li>
-                    <li>
+                    </li-->
+                    <!--li>
                         <a class="page-scroll" href="#contact">Contactos</a>
-                    </li>
+                    </li-->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -363,7 +366,7 @@
             </div>
             <div class="row">
                 <?php
-                $con=new PDO("mysql:host=localhost;dbname=censo_cursos;charset=utf8", 'efrain','123456');
+                $con=new PDO("mysql:host=localhost;dbname=".NOMBRE_BD.";charset=utf8", USUARIO_BD,CLAVE_BD);
                 $stm=$con->prepare("SELECT * from cursos;");
                 $stm->execute();
                 $cursos=$stm->fetchAll();
@@ -454,14 +457,13 @@
 
 
     <!-- Start About Us Section 2 -->
-    <div class="about-us-section-2">
+    <!--div class="about-us-section-2">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-6">
                     <div class="skill-shortcode">
 
-                        <!-- Progress Bar -->
                         <div class="skill">
                             <p>Web Design</p>
                             <div class="progress">
@@ -472,7 +474,6 @@
                             </div>
                         </div>
 
-                        <!-- Progress Bar -->
                         <div class="skill">
                             <p>HTML & CSS</p>
                             <div class="progress">
@@ -483,7 +484,6 @@
                             </div>
                         </div>
 
-                        <!-- Progress Bar -->
                         <div class="skill">
                             <p>Wordpress</p>
                             <div class="progress">
@@ -494,7 +494,6 @@
                             </div>
                         </div>
 
-                        <!-- Progress Bar -->
                         <div class="skill">
                             <p>Joomla</p>
                             <div class="progress">
@@ -505,7 +504,6 @@
                             </div>
                         </div>
 
-                        <!-- Progress Bar -->
                         <div class="skill">
                             <p>Extension</p>
                             <div class="progress">
@@ -521,14 +519,14 @@
 
                 <div class="col-md-6">
                     <div id="carousel-example-generic" class="carousel slide about-slide" data-ride="carousel">
-                        <!-- Indicators -->
+
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                         </ol>
 
-                        <!-- Wrapper for slides -->
+
                         <div class="carousel-inner">
                             <div class="item active">
                                 <img src="images/about-01.jpg" alt="">
@@ -560,8 +558,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title text-center">
-                            <h3>Our Services</h3>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                            <h3>Nuestros Servicios</h3>
+                            <p>Servicios que ofrece nuestra empresa.</p>
                         </div>
                     </div>
                 </div>
@@ -574,8 +572,8 @@
                                     <div class="border"></div>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Web Design</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                    <h4 class="media-heading">Diseño Web</h4>
+                                    <p>Diseño de Páginas Web publicitarias, facil administración y soporte personalizado.</p>
                                 </div>
                             </div>
                         </div>
@@ -584,12 +582,12 @@
                         <div class="feature-2">
                             <div class="media">
                                 <div class="pull-left">
-                                    <i class="fa fa-css3"></i>
+                                    <i class="fa fa-graduation-cap"></i>
                                     <div class="border"></div>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">HTML5 & CSS3</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                    <h4 class="media-heading">Asesorias Tecnológicas</h4>
+                                    <p>Brindamos asesorías tecnológicas a universitarios y público en general. </p>
                                 </div>
                             </div>
                         </div>
@@ -598,12 +596,12 @@
                         <div class="feature-2">
                             <div class="media">
                                 <div class="pull-left">
-                                    <i class="fa fa-wordpress"></i>
+                                    <i class="fa fa-laptop"></i>
                                     <div class="border"></div>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Wordpress Theme</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                    <h4 class="media-heading">Servicio Técnico</h4>
+                                    <p>Brindamos Servicio Técnico especializado para computadores y demás equipos electrónicos.</p>
                                 </div>
                             </div>
                         </div>
@@ -612,12 +610,12 @@
                         <div class="feature-2">
                             <div class="media">
                                 <div class="pull-left">
-                                    <i class="fa fa-plug"></i>
+                                    <i class="fa fa-print"></i>
                                     <div class="border"></div>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Wordpress Plugin</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                    <h4 class="media-heading">Servicio de Impresión</h4>
+                                    <p>Impresión y fotocopiado, papelería, recarga de cartuchos y toner.</p>
                                 </div>
                             </div>
                         </div>
@@ -626,12 +624,12 @@
                         <div class="feature-2">
                             <div class="media">
                                 <div class="pull-left">
-                                    <i class="fa fa-joomla"></i>
+                                    <i class="fa fa-code"></i>
                                     <div class="border"></div>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Joomla Template</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                    <h4 class="media-heading">Sistemas Administrativos</h4>
+                                    <p>Creación de sistemas admnistrativos y comerciales, manejo de puntos de ventas, impresoras fiscales y más.</p>
                                 </div>
                             </div>
                         </div>
@@ -640,12 +638,12 @@
                         <div class="feature-2">
                             <div class="media">
                                 <div class="pull-left">
-                                    <i class="fa fa-cube"></i>
+                                    <i class="fa fa-shopping-cart"></i>
                                     <div class="border"></div>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Joomla Extension</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                    <h4 class="media-heading">Repuestos de Computadoras</h4>
+                                    <p>Ventas de repuestos para computadoras, laptop e impresoras con garantía y a los mejores precios.</p>
                                 </div>
                             </div>
                         </div>
@@ -657,9 +655,8 @@
         </section>
         <!-- End Feature Section -->
 
-
-
     <!-- Start Fun Facts Section -->
+    <!--
     <section class="fun-facts">
         <div class="container">
             <div class="row">
@@ -694,12 +691,13 @@
             </div>
         </div>
     </section>
+    -->
     <!-- End Fun Facts Section -->
 
 
 
     <!-- Start Team Member Section -->
-    <section id="team" class="team-member-section">
+    <!--section id="team" class="team-member-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
@@ -819,13 +817,13 @@
             </div>
 
         </div>
-    </section>
+    </section -->
     <!-- End Team Member Section -->
 
 
 
     <!-- Start Pricing Table Section -->
-    <div id="pricing" class="pricing-section">
+    <!--div id="pricing" class="pricing-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -996,7 +994,7 @@
 
 
     <!-- Start Latest News Section -->
-    <section id="latest-news" class="latest-news-section">
+    <!--section id="latest-news" class="latest-news-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -1092,11 +1090,9 @@
 
 
     <!-- Start Testimonial Section -->
-    <div id="testimonial" class="testimonial-section">
+    <!--div id="testimonial" class="testimonial-section">
         <div class="container">
-            <!-- Start Testimonials Carousel -->
             <div id="testimonial-carousel" class="testimonials-carousel">
-                <!-- Testimonial 1 -->
                 <div class="testimonials item">
                     <div class="testimonial-content">
                         <img src="images/testimonial/face_1.png" alt="" >
@@ -1107,7 +1103,6 @@
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<br> laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
                     </div>
                 </div>
-                <!-- Testimonial 2 -->
                 <div class="testimonials item">
                     <div class="testimonial-content">
                         <img src="images/testimonial/face_2.png" alt="" >
@@ -1118,7 +1113,6 @@
                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia<br> consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                     </div>
                 </div>
-                <!-- Testimonial 3 -->
                 <div class="testimonials item">
                     <div class="testimonial-content">
                         <img src="images/testimonial/face_3.png" alt="" >
@@ -1130,7 +1124,6 @@
                     </div>
                 </div>
             </div>
-            <!-- End Testimonials Carousel -->
         </div>
     </div>
     <!-- End Testimonial Section -->
@@ -1138,7 +1131,7 @@
 
 
     <!-- Clients Aside -->
-    <section id="partner">
+    <!--section id="partner">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -1268,20 +1261,21 @@
                 </div>
             </div>
         </div>
+        -->
         <footer class="style-1">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-xs-12">
-                        <span class="copyright">Copyright &copy; <a href="http://guardiantheme.com">GuardinTheme</a> 2015</span>
+                        <span class="copyright">Copyright &copy; <b>IndexSoftware</b> <?php echo date('Y');?></span>
                     </div>
                     <div class="col-md-4 col-xs-12">
                         <div class="footer-social text-center">
                             <ul>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="https://twitter.com/indexsoftware" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/Index-Software-CA-172385079487212/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <!--li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li-->
+                                <!--li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li-->
+                                <!--li><a href="#"><i class="fa fa-dribbble"></i></a></li-->
                             </ul>
                         </div>
                     </div>
