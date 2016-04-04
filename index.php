@@ -13,14 +13,14 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="asset/css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- Font Awesome CSS -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    
-    
+
+
     <!-- Animate CSS -->
     <link href="css/animate.css" rel="stylesheet" >
-    
+
     <!-- Owl-Carousel -->
     <link rel="stylesheet" href="css/owl.carousel.css" >
     <link rel="stylesheet" href="css/owl.theme.css" >
@@ -29,13 +29,13 @@
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-    
+
     <!-- Colors CSS -->
     <!--<link rel="stylesheet" type="text/css" href="css/color/blue.css">-->
     <link rel="stylesheet" type="text/css" href="css/color/blue.css">
-    
-    
-    
+
+
+
     <!-- Colors CSS -->
     <!--<link rel="stylesheet" type="text/css" href="css/color/green.css" title="green">-->
     <!--<link rel="stylesheet" type="text/css" href="css/color/light-red.css" title="light-red">-->
@@ -48,12 +48,12 @@
 
     <!-- Custom Fonts -->
     <!--<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>-->
-    
-    
+
+
     <!-- Modernizer js -->
     <script src="js/modernizr.custom.js"></script>
 
-    
+
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -64,8 +64,8 @@
 </head>
 
 <body class="index">
-    
-    
+
+
     <!-- Styleswitcher
 ================================================== -->
         <!--<div class="colors-switcher">-->
@@ -141,9 +141,9 @@
         <!-- /.container-fluid -->
     </nav>
 
-    
-    
-    
+
+
+
     <!-- Start Home Page Slider -->
     <section id="page-top">
         <!-- Carousel -->
@@ -173,10 +173,10 @@
                     </div>
                 </div>
                 <!--/ Carousel item end -->
-                
+
                 <div class="item">
                     <img class="img-responsive" src="images/header1.png" alt="slider" style="width: 100%;height: 100%;">
-                    
+
                     <div class="slider-content">
                         <div class="col-md-12 text-center">
                             <h1 class="animated1">
@@ -188,7 +188,7 @@
                     </div>
                 </div>
                 <!--/ Carousel item end -->
-                
+
                 <div class="item">
                     <img class="img-responsive" src="images/galaxy.jpg" alt="slider">
                     <div class="slider-content">
@@ -198,7 +198,7 @@
                             </h1>
                             <p class="animated1">Desarrollo de Sistemas en dispositivos Android<br> brindando un servicio multiplataforma para comodidad<br> de todos los usuarios</p>
                             <!--<a class="animated3 slider btn btn-primary btn-min-block" href="#">Get Now</a><a class="animated3 slider btn btn-default btn-min-block" href="#">Live Demo</a>-->
-                                
+
                         </div>
                     </div>
                 </div>
@@ -231,70 +231,6 @@
     </section>
     <!-- End Home Page Slider -->
 
-    
-    
-    <!-- Start Feature Section -->
-        <!--<section id="feature" class="feature-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="feature">
-                            <i class="fa fa-magic"></i>
-                            <div class="feature-content">
-                                <h4>Web Design</h4>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
-                            </div>
-                        </div>
-                    </div>&lt;!&ndash; /.col-md-3 &ndash;&gt;
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="feature">
-                            <i class="fa fa-gift"></i>
-                            <div class="feature-content">
-                                <h4>Graphics Design</h4>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
-                            </div>
-                        </div>
-                    </div>&lt;!&ndash; /.col-md-3 &ndash;&gt;
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="feature">
-                            <i class="fa fa-wordpress"></i>
-                            <div class="feature-content">
-                                <h4>Wordpress Theme</h4>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
-                            </div>
-                        </div>
-                    </div>&lt;!&ndash; /.col-md-3 &ndash;&gt;
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="feature">
-                            <i class="fa fa-plug"></i>
-                            <div class="feature-content">
-                                <h4>Wordpress Plugin</h4>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>&lt;!&ndash; /.row &ndash;&gt;
-            
-            </div>&lt;!&ndash; /.container &ndash;&gt;
-        </section>-->
-        <!-- End Feature Section -->
-    
-    
-    <!-- Start Call to Action Section -->
-    <!--<section class="call-to-action">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Libero tempore soluta nobis est eligendi</br> optio cumque nihil impedit minus id quod maxime </br>placeat facere possimus, omnis voluptas assumenda est</h1>
-                    <button type="submit" class="btn btn-primary">Buy This Template</button>
-                </div>
-            </div>
-        </div>
-    </section>-->
-    <!-- End Call to Action Section -->
-    
-    
-    
     <!-- Start Portfolio Section -->
         <section id="portfolio" class="portfolio-section-1">
             <div class="container">
@@ -303,12 +239,12 @@
                         <div class="section-title text-center">
                             <h3>Nuestros Trabajos</h3>
                             <p>Nuestros productos principales, desarrollados en distintas plataformas</p>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        
+
                         <!-- Start Portfolio items -->
                         <ul id="portfolio-list">
                             <li>
@@ -371,8 +307,8 @@
                                     </div>
                                 </div>
                             </li>
-                            
-                            
+
+
                         </ul>
                         <!-- End Portfolio items -->
                     </div>
@@ -380,7 +316,7 @@
             </div>
         </section>
         <!-- End Portfolio Section -->
-    
+
     <!-- Start Portfolio Modal Section -->
         <div class="section-modal modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
@@ -390,7 +326,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
                         <div class="section-title text-center">
@@ -399,21 +335,21 @@
                         </div>
                     </div>
                     <div class="row">
-                        
+
                         <div class="col-md-6">
                             <img src="images/portfolio/img1.jpg" class="img-responsive" alt="..">
                         </div>
                         <div class="col-md-6">
                             <img src="images/portfolio/img1.jpg" class="img-responsive" alt="..">
                         </div>
-                        
-                    </div><!-- /.row -->
-                </div>                
+
+                    </div>
+                </div>
             </div>
         </div>
         <!-- End Portfolio Modal Section -->
-    
-    
+
+
     <!-- Start About Us Section -->
     <section id="censo_cursos" class="about-us-section-1">
         <div class="container">
@@ -421,7 +357,7 @@
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title text-center">
                             <h3>Cursos</h3>
-                            <p>Registro su solicitud de Cursos que tenemos para ofrecer:</p>
+                            <p>Registre su solicitud de Cursos que tenemos para ofrecer:</p>
                         </div>
                 </div>
             </div>
@@ -435,7 +371,7 @@
                 ?>
                 <div class="col-md-4">
                     <div class="welcome-section text-center contenedor">
-                        <input type="radio" class="curso <?php echo $v["id"] ?>" name="curso" id="<?php echo $v["id"] ?>" value="<?php echo $v["id"] ?>">
+                        <input type="radio" class="curso" data-id="<?php echo $v["id"] ?>" name="curso" id="<?php echo $v["id"] ?>" value="<?php echo $v["id"] ?>">
                         <label for="<?php echo $v["id"] ?>">
                             <img src="images/about-01.jpg" class="img-responsive" alt="..">
                             <h4><?php echo $v["nombre"] ?></h4>
@@ -447,6 +383,7 @@
                 <?php
                 }
                 ?>
+                <br>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -472,14 +409,14 @@
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" placeholder="Comentario" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <textarea id="comentario" class="form-control" placeholder="Comentario" id="message" required data-validation-required-message="Please enter a message."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-lg-12 text-center">
                         <div id="success"></div>
-                        <button class="btn btn-success">Registrar Solicitud</button>
+                        <button class="btn btn-success" id="registrar_postulacion">Registrar Solicitud</button>
                     </div>
                 </div>
                 <!--<div class="col-md-4">
@@ -490,7 +427,7 @@
                         <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p>
                     </div>
                 </div>
-                
+
                 <div class="col-md-4">
                     <div class="welcome-section text-center">
                         <img src="images/about-02.jpg" class="img-responsive" alt="..">
@@ -499,7 +436,7 @@
                         <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p>
                     </div>
                 </div>
-                
+
                 <div class="col-md-4">
                     <div class="welcome-section text-center">
                         <img src="images/about-03.jpg" class="img-responsive" alt="..">
@@ -508,9 +445,9 @@
                         <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p>
                     </div>
                 </div>-->
-                
-            </div><!-- /.row -->            
-            
+
+            </div><!-- /.row -->
+
         </div><!-- /.container -->
     </section>
     <!-- End About Us Section -->
@@ -520,68 +457,68 @@
     <div class="about-us-section-2">
         <div class="container">
             <div class="row">
-                
+
                 <div class="col-md-6">
                     <div class="skill-shortcode">
-                        
+
                         <!-- Progress Bar -->
                         <div class="skill">
-                            <p>Web Design</p>          
-                            <div class="progress">         
+                            <p>Web Design</p>
+                            <div class="progress">
                                 <div class="progress-bar" role="progressbar"  data-percentage="60">
                                     <span class="progress-bar-span" >60%</span>
                                     <span class="sr-only">60% Complete</span>
                                 </div>
-                            </div>  
+                            </div>
                         </div>
-                        
+
                         <!-- Progress Bar -->
                         <div class="skill">
-                            <p>HTML & CSS</p>          
-                            <div class="progress">         
+                            <p>HTML & CSS</p>
+                            <div class="progress">
                                 <div class="progress-bar" role="progressbar"  data-percentage="95">
                                     <span class="progress-bar-span" >95%</span>
                                     <span class="sr-only">95% Complete</span>
                                 </div>
-                            </div>  
+                            </div>
                         </div>
-                        
+
                         <!-- Progress Bar -->
                         <div class="skill">
-                            <p>Wordpress</p>          
-                            <div class="progress">         
+                            <p>Wordpress</p>
+                            <div class="progress">
                                 <div class="progress-bar" role="progressbar"  data-percentage="80">
                                     <span class="progress-bar-span" >80%</span>
                                     <span class="sr-only">80% Complete</span>
                                 </div>
-                            </div>  
+                            </div>
                         </div>
-                        
+
                         <!-- Progress Bar -->
                         <div class="skill">
-                            <p>Joomla</p>          
-                            <div class="progress">         
+                            <p>Joomla</p>
+                            <div class="progress">
                                 <div class="progress-bar" role="progressbar"  data-percentage="100">
                                     <span class="progress-bar-span" >100%</span>
                                     <span class="sr-only">100% Complete</span>
                                 </div>
-                            </div>  
+                            </div>
                         </div>
-                        
+
                         <!-- Progress Bar -->
                         <div class="skill">
-                            <p>Extension</p>          
-                            <div class="progress">         
+                            <p>Extension</p>
+                            <div class="progress">
                                 <div class="progress-bar" role="progressbar"  data-percentage="70">
                                     <span class="progress-bar-span" >70%</span>
                                     <span class="sr-only">70% Complete</span>
                                 </div>
-                            </div>  
+                            </div>
                         </div>
-                                                            
+
                     </div>
                 </div>
-                
+
                 <div class="col-md-6">
                     <div id="carousel-example-generic" class="carousel slide about-slide" data-ride="carousel">
                         <!-- Indicators -->
@@ -602,19 +539,19 @@
                             <div class="item">
                                 <img src="images/about-03.jpg" alt="">
                             </div>
-    
+
                         </div>
-  
+
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
     <!-- Start About Us Section 2 -->
 
 
-    
+
 
 
     <!-- Start Feature Section -->
@@ -713,15 +650,15 @@
                             </div>
                         </div>
                     </div><!-- /.col-md-4 -->
-                    
+
                 </div><!-- /.row -->
-            
+
             </div><!-- /.container -->
         </section>
         <!-- End Feature Section -->
-    
-    
-    
+
+
+
     <!-- Start Fun Facts Section -->
     <section class="fun-facts">
         <div class="container">
@@ -730,28 +667,28 @@
                       <div class="counter-item">
                         <i class="fa fa-cloud-upload"></i>
                         <div class="timer" id="item1" data-to="991" data-speed="5000"></div>
-                        <h5>Files uploaded</h5>                               
+                        <h5>Files uploaded</h5>
                       </div>
-                    </div>  
+                    </div>
                     <div class="col-xs-12 col-sm-6 col-md-3">
                       <div class="counter-item">
                         <i class="fa fa-check"></i>
                         <div class="timer" id="item2" data-to="7394" data-speed="5000"></div>
-                        <h5>Projects completed</h5>                               
+                        <h5>Projects completed</h5>
                       </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3">
                       <div class="counter-item">
                         <i class="fa fa-code"></i>
                         <div class="timer" id="item3" data-to="18745" data-speed="5000"></div>
-                        <h5>Lines of code written</h5>                               
+                        <h5>Lines of code written</h5>
                       </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3">
                       <div class="counter-item">
                         <i class="fa fa-male"></i>
                         <div class="timer" id="item4" data-to="8423" data-speed="5000"></div>
-                        <h5>Happy clients</h5>                               
+                        <h5>Happy clients</h5>
                       </div>
                     </div>
             </div>
@@ -772,14 +709,14 @@
                         </div>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-md-12">
                     <div id="team-section">
-                    
-                        
-                
-                
+
+
+
+
 
                                 <div class="our-team">
 
@@ -826,7 +763,7 @@
                                                 <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                                             </ul>
                                         </div>
-                                    </div>    
+                                    </div>
 
                                     <div class="team-member">
                                         <img src="images/team/manage-4.png" class="img-responsive" alt="">
@@ -876,11 +813,11 @@
 
                                 </div>
 
-                    
+
                     </div>
                 </div>
             </div>
-                
+
         </div>
     </section>
     <!-- End Team Member Section -->
@@ -900,11 +837,11 @@
                     </div>
                 </div>
             </div>
-                    
+
             <div class="row">
-                        
+
                 <div class="pricing">
-                        
+
                         <div class="col-md-12">
                             <div class="pricing-table">
                                 <div class="plan-name">
@@ -928,7 +865,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-12">
                             <div class="pricing-table">
                                 <div class="plan-name">
@@ -975,7 +912,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-12">
                             <div class="pricing-table">
                                 <div class="plan-name">
@@ -999,7 +936,7 @@
                                 </div>
                             </div>
                         </div>
-                    
+
                         <div class="col-md-12">
                             <div class="pricing-table">
                                 <div class="plan-name">
@@ -1023,7 +960,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-12">
                             <div class="pricing-table">
                                 <div class="plan-name">
@@ -1047,17 +984,17 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
-						
-						
+
+
             </div>
         </div>
     </div>
     <!-- End Pricing Table Section -->
-    
-    
-    
+
+
+
     <!-- Start Latest News Section -->
     <section id="latest-news" class="latest-news-section">
         <div class="container">
@@ -1077,7 +1014,7 @@
                             <h4><a href="#">Standard Post with Image</a></h4>
                             <div class="post-details">
                                 <span class="date"><strong>31</strong> <br>Dec , 2014</span>
-                                
+
                             </div>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                             <a href="#" class="btn btn-primary">Read More</a>
@@ -1089,7 +1026,7 @@
                             <h4><a href="#">Standard Post with Image</a></h4>
                             <div class="post-details">
                                 <span class="date"><strong>17</strong> <br>Feb , 2014</span>
-                                
+
                             </div>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                             <a href="#" class="btn btn-primary">Read More</a>
@@ -1101,7 +1038,7 @@
                             <h4><a href="#">Standard Post with Image</a></h4>
                             <div class="post-details">
                                 <span class="date"><strong>08</strong> <br>Aug , 2014</span>
-                                
+
                             </div>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                             <a href="#" class="btn btn-primary">Read More</a>
@@ -1113,7 +1050,7 @@
                             <h4><a href="#">Standard Post with Image</a></h4>
                             <div class="post-details">
                                 <span class="date"><strong>08</strong> <br>Aug , 2014</span>
-                                
+
                             </div>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                             <a href="#" class="btn btn-primary">Read More</a>
@@ -1125,7 +1062,7 @@
                             <h4><a href="#">Standard Post with Image</a></h4>
                             <div class="post-details">
                                 <span class="date"><strong>08</strong> <br>Aug , 2014</span>
-                                
+
                             </div>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                             <a href="#" class="btn btn-primary">Read More</a>
@@ -1137,7 +1074,7 @@
                             <h4><a href="#">Standard Post with Image</a></h4>
                             <div class="post-details">
                                 <span class="date"><strong>08</strong> <br>Aug , 2014</span>
-                                
+
                             </div>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                             <a href="#" class="btn btn-primary">Read More</a>
@@ -1151,9 +1088,9 @@
 
 
 
-    
-    
-    
+
+
+
     <!-- Start Testimonial Section -->
     <div id="testimonial" class="testimonial-section">
         <div class="container">
@@ -1197,8 +1134,8 @@
         </div>
     </div>
     <!-- End Testimonial Section -->
-    
-    
+
+
 
     <!-- Clients Aside -->
     <section id="partner">
@@ -1213,55 +1150,55 @@
             </div>
             <div class="row">
                 <div class="clients">
-                    
+
                     <div class="col-md-12">
                         <img src="images/logos/themeforest.jpg" class="img-responsive" alt="...">
                     </div>
-                    
+
                     <div class="col-md-12">
                         <img src="images/logos/creative-market.jpg" class="img-responsive" alt="...">
                     </div>
-                    
+
                     <div class="col-md-12">
                         <img src="images/logos/designmodo.jpg" class="img-responsive" alt="...">
                     </div>
-                    
+
                     <div class="col-md-12">
                         <img src="images/logos/creative-market.jpg" class="img-responsive" alt="...">
                     </div>
-                    
+
                     <div class="col-md-12">
                         <img src="images/logos/microlancer.jpg" class="img-responsive" alt="...">
                     </div>
-                    
+
                     <div class="col-md-12">
                         <img src="images/logos/themeforest.jpg" class="img-responsive" alt="...">
                     </div>
-                    
+
                     <div class="col-md-12">
                         <img src="images/logos/microlancer.jpg" class="img-responsive" alt="...">
                     </div>
-                    
+
                     <div class="col-md-12">
                         <img src="images/logos/designmodo.jpg" class="img-responsive" alt="...">
                     </div>
-                    
+
                     <div class="col-md-12">
                         <img src="images/logos/creative-market.jpg" class="img-responsive" alt="...">
                     </div>
-                    
+
                     <div class="col-md-12">
                         <img src="images/logos/designmodo.jpg" class="img-responsive" alt="...">
                     </div>
-                    
+
                 </div>
             </div>
         </div>
     </section>
-    
-    
-    
-    
+
+
+
+
 
     <section id="contact" class="contact">
         <div class="container">
@@ -1371,7 +1308,7 @@
         </div>
     </div>
 
-    
+
 
     <!-- jQuery Version 2.1.1 -->
     <script src="js/jquery-2.1.1.min.js"></script>
